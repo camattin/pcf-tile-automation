@@ -44,9 +44,6 @@ PRODUCT_PROPERTIES=$(cat <<-EOF
   ".properties.backup_options": {
     "value": "enable"
   },
-  ".properties.backup_options.enable.cron_schedule": {
-    "value": "$BACKUP_CRON_SCHEDULE"
-  },
   ".properties.backup_options.enable.backup_all_masters": {
     "value": true
   },
